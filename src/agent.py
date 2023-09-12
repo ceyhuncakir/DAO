@@ -11,3 +11,9 @@ class Agent:
     ) -> str:
     
         return self.__name
+
+    def __repr__(
+        self
+    ) -> str:
+
+        return f'''Agent: {self.__name}'''
