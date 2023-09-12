@@ -1,16 +1,27 @@
 from typing import List
 
-import time
-
 class Proposal:
     def __init__(
-            self, 
-            proposer: str, 
-            proposal: str, 
-            choises: List[str]
-        ) -> None:
+        self, 
+        proposer: str, 
+        proposal: str, 
+        choises: List[str],
+        time: int
+    ) -> None:
         
-        self.proposer = owner
-        self.proposal = proposal 
-        self.choises = choises
-        self.timestamp = time.time()
+        self.__proposer = proposer
+        self.__proposal = proposal 
+        self.__choises = choises
+        self.__timestamp = time
+
+    
+    def __repr__(
+        self
+    ) -> str:
+
+        return f'''
+                proposer: {self.__proposer}, 
+                proposal: {self.__proposal}, 
+                choises: {self.__choises}, 
+                timestamp: {self.__timestamp}
+            '''
