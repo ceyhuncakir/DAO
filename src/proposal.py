@@ -5,12 +5,12 @@ import time
 class Proposal:
     def __init__(
             self, 
-            owner: str, 
+            proposer: str, 
             proposal: str, 
             choises: List[str]
         ) -> None:
         
-        self.proposal_owner = owner
+        self.proposer = owner
         self.proposal = proposal 
         self.choises = choises
         self.timestamp = time.time()
