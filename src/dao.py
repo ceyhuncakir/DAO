@@ -1,5 +1,4 @@
 from typing import List
-from agent import Agent
 
 class Dao:
     def __init__(

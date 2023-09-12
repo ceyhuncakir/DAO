@@ -14,7 +14,6 @@ class Proposal:
         self.__choises = choises
         self.__timestamp = time
 
-    
     def __repr__(
         self
     ) -> str:
