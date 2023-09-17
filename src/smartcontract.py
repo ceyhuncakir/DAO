@@ -1,5 +1,5 @@
 class Smartcontract:
     def __init__(
-            self
-        ) -> None:
+        self
+    ) -> None:
         pass

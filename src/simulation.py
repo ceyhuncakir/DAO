@@ -1,16 +1,16 @@
 class Simulation:
     def __init__(
-            self, 
-            iterations: int
-        ) -> None:
+        self, 
+        iterations: int
+    ) -> None:
 
-        self.iterations = iterations
+        self.__iterations = iterations
 
     def run(
-            self
-        ) -> None:
+        self
+    ) -> None:
         
-        for t in range(self.iterations):
+        for t in range(self.__iterations):
             pass
             
 
